@@ -1,3 +1,5 @@
+/* This program is used to verify header file. All APIs are tested. */
+
 #include "LinkedList.h"
 #include <string.h>
 
