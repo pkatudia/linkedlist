@@ -81,7 +81,9 @@ int main(){
   node *L3 = addtwoLL(L1, L2);
   printLL(L3);
 
-  /* 8 9 9 9 9 9 0 0 1 */
+  /* Test 1:
+   * expected result: 8 9 9 9 9 9 0 0 1 
+   * */
 
   node *test = createLL(NULL, 8);
   test = createLL(test, 9);
@@ -98,6 +100,14 @@ int main(){
   else 
     printf("PASS\n");
   
+  /* Test 2: NULL Test
+   */
+
+
+  node *test2 = addtwoLL(L1, NULL);
+  if (!isSameLL(test2,L1))
+    abort();
+    
   return 0;
 }
 

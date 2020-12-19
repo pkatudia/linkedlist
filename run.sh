@@ -13,7 +13,7 @@ done
 
 
 if ls ./core.* 1> /dev/null 2>&1; then
-  echo "------------- FAIL ----------------"
+  echo "------------- FAIL (Corefile detected) ----------------"
 else
   echo "------------- ALL PASS ---------------"
   make clean;
