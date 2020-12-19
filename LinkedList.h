@@ -11,7 +11,7 @@
 #define NO 0
 
 #define DEBUG YES
-#define DEEP_DEBUG YES
+#define DEEP_DEBUG NO
 
 typedef struct node{
   int data;

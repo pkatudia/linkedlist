@@ -1,3 +1,13 @@
+/*
+ * Author: Prakash Katudia <prakash.katudia@gmail.com> 
+ * Merge two linked list with incremental data/num
+ * Ex: 
+ * L1 = 1 4 5
+ * L2 = 2 3
+ * o/p =  1 2 3 4 5
+ */
+
+
 #include "LinkedList.h"
 
 node * mergeLL(node *L1, node *L2);
