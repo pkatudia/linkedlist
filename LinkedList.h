@@ -95,7 +95,7 @@ node * deleteLL(node *root)
 {
   if(root == NULL){
     printlog("Already empty");
-    return;
+    return NULL;
   }
   node * tmp = root;
   node *t1;

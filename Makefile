@@ -5,6 +5,7 @@ all:
 	gcc -g  swapLL.c -o swapLL.o
 	gcc -g  palindromeLL.c -o palindromeLL.o
 	gcc -g  splitLL.c -o splitLL.o
+	gcc -g  addtwoLL.c -o addtwoLL.o
 	chmod 777 *.o
 clean:
 	rm -rf *.o
