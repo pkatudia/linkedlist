@@ -13,3 +13,5 @@ Easy LinkedList library to implement program (solve interview question)
 1. LinkedList.h   ---> Liberary
 2. testLL.c       ---> Test liberary
 3. run.sh         ---> Automation of all program
+
+INFO: MAC OS CANNOT GENERATE CORE FILE. SO OVERALL PASS/FAIL STATUS MAY SHOW WRONG
