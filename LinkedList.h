@@ -6,12 +6,20 @@
 #include<stdio.h>
 #include<stdlib.h>
 #include<assert.h>
+#include<sys/syscall.h>
 
 #define YES 1
 #define NO 0
 
 #define DEBUG YES
 #define DEEP_DEBUG NO
+
+
+#define myabort() { \
+	printf("Fail-------> %s:%d\n",__FILE__, __LINE__); \
+	abort();					   \
+	system("touch core.X"); 			   \
+}
 
 typedef struct node{
   int data;

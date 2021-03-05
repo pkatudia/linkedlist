@@ -9,6 +9,8 @@ all:
 	chmod 777 *.o
 clean:
 	rm -rf *.o
+	rm -rf *.dSYM
 cleanall:
 	rm -rf *.o
 	rm -rf core.*
+	rm -rf *.dSYM

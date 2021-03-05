@@ -28,8 +28,8 @@ node * addtwoLL(node *L1, node *L2)
   struct node *tmpL2 = L2;
   struct node *L3 = NULL;
 
-  int data, sum = 0;
 
+  static  int data, sum = 0;
   while(tmpL1 != NULL || tmpL2 !=NULL)
   {
       if (tmpL1)
@@ -96,7 +96,7 @@ int main(){
   test = createLL(test, 1);
  
   if (isSameLL(test, L3) != 1)
-    abort();
+    {myabort();}
   else 
     printf("PASS\n");
   
@@ -106,7 +106,7 @@ int main(){
 
   node *test2 = addtwoLL(L1, NULL);
   if (!isSameLL(test2,L1))
-    abort();
+    {myabort();}
     
   return 0;
 }
